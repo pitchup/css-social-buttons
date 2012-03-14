@@ -24,7 +24,7 @@ Enjoy
 a.zocial {
 	border-bottom-color: rgba(0,0,0,0.4);
 	border: 1px solid rgba(0,0,0,0.2);
-	color: #fff;
+	color: #fff !important;
 	-moz-box-shadow: inset 0 0.08em 0 rgba(255,255,255,0.4), inset 0 0 0.1em rgba(255,255,255,0.9);
 	-webkit-box-shadow: inset 0 0.08em 0 rgba(255,255,255,0.4), inset 0 0 0.1em rgba(255,255,255,0.9);
 	box-shadow: inset 0 0.08em 0 rgba(255,255,255,0.4), inset 0 0 0.1em rgba(255,255,255,0.9);
@@ -42,10 +42,12 @@ a.zocial {
 	
 	position: relative;
 	z-index: 100;
-	
+
 	-moz-border-radius: .3em;
 	-webkit-border-radius: .3em;
 	border-radius: .3em;
+    font-size: 1em;
+    line-height: 1.6em;
 }
 
 .zocial:before {
@@ -72,14 +74,14 @@ a.zocial {
 
 /* Buttons can be displayed as standalone icons by adding a class of "icon" */
 
-.zocial.icon {
+.zocial.zicon {
 	overflow: hidden;
 	max-width: 2.4em;
 	padding-left: 0;
 	padding-right: 0;
 	max-height: 2.15em;
 }
-.zocial.icon:before {
+.zocial.zicon:before {
 	padding: 0;
 	width: 2em;
 	height: 2em;
@@ -310,7 +312,7 @@ a.zocial {
 .zocial.eventbrite {background-color: #ff5616;}
 .zocial.eventful {background-color: #fff; color: #47ab15;}
 .zocial.evernote {background-color: #6bb130; color: #fff;}
-.zocial.facebook {background-color: #4863ae;}
+.zocial.facebook {background-color: #4863ae; color: #ffffff !important;}
 .zocial.fivehundredpx {background-color: #333;}
 .zocial.flattr {background-color: #8aba42;}
 .zocial.forrst {background-color: #1e360d;}
