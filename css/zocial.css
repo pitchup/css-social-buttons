@@ -11,11 +11,11 @@ Enjoy
 	font-family: 'zocial';
 	font-style: normal;
 	font-weight: normal;
-	src: url('/static/pitchup/css-social-buttons/css/zocial-regular-webfont.eot');
-	src: url('/static/pitchup/css-social-buttons/css/zocial-regular-webfont.eot?#iefix') format('embedded-opentype'),
-		url('/static/pitchup/css-social-buttons/css/zocial-regular-webfont.woff') format('woff'),
-		url('/static/pitchup/css-social-buttons/css/zocial-regular-webfont.ttf') format('truetype'),
-		url('/static/pitchup/css-social-buttons/css/zocial-regular-webfont.svg#ZocialRegular') format('svg');
+	src: url('//d2vj3qt9i4pgnr.cloudfront.net/static/pitchup/css-social-buttons/css/zocial-regular-webfont.eot');
+	src: url('//d2vj3qt9i4pgnr.cloudfront.net/static/pitchup/css-social-buttons/css/zocial-regular-webfont.eot?#iefix') format('embedded-opentype'),
+		url('//d2vj3qt9i4pgnr.cloudfront.net/static/pitchup/css-social-buttons/css/zocial-regular-webfont.woff') format('woff'),
+		url('//d2vj3qt9i4pgnr.cloudfront.net/static/pitchup/css-social-buttons/css/zocial-regular-webfont.ttf') format('truetype'),
+		url('//d2vj3qt9i4pgnr.cloudfront.net/static/pitchup/css-social-buttons/css/zocial-regular-webfont.svg#ZocialRegular') format('svg');
 }
 
 /* Button structure */
